@@ -1,6 +1,6 @@
 
 body {
-    background-color: gold;
+    background-color: silver;
 }
 
 .main-title {
@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     align-items: center;
     font-size: xx-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .locations {
@@ -15,6 +16,7 @@ body {
     flex-direction: column;
     align-items: center;
     font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .main-page-images {
@@ -26,5 +28,67 @@ body {
 .loca-image {
     max-width: 30%;
     border: solid;
+    border-color: silver;
+}
+
+.welcome-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 80px;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.cities-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-location-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portland {
+    max-width: 35%;
+    border: solid;
+    border-radius: 25px;
+    border-color: gold;
+}
+
+.mxc {
+    max-width: 55%;
+    border: solid;
+    border-radius: 25px;
+    border-color: gold;
+}
+
+.tokyo {
+    max-width: 55%;
+    border: solid;
+    border-radius: 25px;
+    border-color: gold;
+}
+
+.stockholm {
+    max-width: 55%;
+    border: solid;
+    border-radius: 25px;
     border-color: gold;
 }
