@@ -28,7 +28,7 @@ body {
 .loca-image {
     max-width: 30%;
     border: solid;
-    border-color: silver;
+    border-color: gold;
 }
 
 .welcome-title {
@@ -58,6 +58,8 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+/* Location pages below */
 
 .main-location-image {
     display: flex;
